@@ -2,8 +2,8 @@
 
 require_once "./../vendor/autoload.php";
 
-$model = new \Jie\ContentService(['url' => '120.27.110.172']);
-$selectModel = new \Jie\SearchService(['url' => '120.27.110.172']);
+$model = new \Jie\ContentService(['url' => '']);
+$selectModel = new \Jie\SearchService(['url' => '']);
 $table = [ //文档类型设置（相当于mysql的数据类型）
     'id'      => [
         'type' => 'integer',
