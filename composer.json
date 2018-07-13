@@ -1,0 +1,21 @@
+{
+  "name": "wujie/e-search",
+  "description": "搜索",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "wj",
+      "email": "1224805548@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "elasticsearch/elasticsearch": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jie\\": "src"
+    }
+  }
+}
